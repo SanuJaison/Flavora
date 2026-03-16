@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Make A Reservation | Flavora</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <a href="index.html"
+        ><p>FL<span>AVORA</span></p></a
+      >
+      <ul class="nav-links">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="story.html">STORY</a></li>
+        <li><a href="menu.html">MENUS</a></li>
+        <li><a href="reservation.html">RESERVATION</a></li>
+        <a href="register.html"><button class="navbtn">GET STARTED</button></a>
+      </ul>
+    </header>
+
+    <!-- hero -->
+    <div class="hero">
+      <div class="res-hero">
+        <div class="res-texts">
+          <p class="sun">✺</p>
+          <h1 class="res-head">RESERVE A TABLE</h1>
+          <p class="rht"><i>A Gastronomic Journey</i></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- res blackdiv -->
+    <div class="res-bd">
+      <div class="form-box">
+        <div class="infos">
+          <div class="nnd">
+            <label>HONERED GUEST NAME</label>
+            <input type="text" placeholder="Monsieur / Madame" />
+            <label>CONTACT NUMBER</label>
+            <input type="tel" placeholder="+1 (555) 000-0000" />
+            <label> DESIRED DATE</label>
+            <input type="date" />
+          </div>
+          <div class="est">
+            <label>EMAIL ADDRESS</label>
+            <input type="email" placeholder="contact@example.com" />
+            <label>PARTY SIZE</label>
+            <select>
+              <option value="1 Person - Solo Dining">
+                1 Person - Solo Dining
+              </option>
+              <option
+                value="2 People - Intimate Dining"
+                selected
+                class="default"
+              >
+                2 People - Intimate Dining
+              </option>
+              <option value="3 People">3 People</option>
+              <option value="4 Peole">4 Peole</option>
+              <option value="5+ People">5+ Peole</option>
+            </select>
+            <label> PREFERED TIME</label>
+            <select>
+              <option value="" disabled selected class="default">
+                Select an hour
+              </option>
+              <option value="18:00 (6:00)">18:00 (6:00)</option>
+              <option value="19:00 (7:00)">19:00 (7:00)</option>
+              <option value="20:00 (8:00)">20:00 (8:00)</option>
+              <option value="21:00 (9:00)">21:00 (9:00)</option>
+              <option value="22:00 (10:00)">22:00 (10:00)</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="req-but">
+          <label>SPECIAL REQUESTS / DIETARY RESTRICTIONS</label>
+          <input
+            type="text"
+            placeholder="Anniversary, allergies, or window seating preferences..."
+            id="big-inp"
+          />
+          <button class="btn4">CONFIRM RESERVATION</button>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer>
+      <div class="footer-contents">
+        <div class="texts-logos">
+          <p class="flavora">FL<span>AVORA</span></p>
+          <p class="experience">
+            Experience the absolute pinnacle of fine dining where culinary
+            artistry meets breathtaking ambiance.
+          </p>
+          <div class="logos">
+            <p class="fb"><i class="fa-brands fa-facebook-f"></i></p>
+            <p class="fb"><i class="fa-brands fa-instagram"></i></p>
+            <p class="fb"><i class="fa-brands fa-twitter"></i></p>
+          </div>
+        </div>
+        <div class="service">
+          <p><i>Service Hours</i></p>
+          <ul>
+            <li>Dinner:</li>
+            <li>Monday – Thursday: 6:00 PM – 10:30 PM</li>
+            <li>Friday – Saturday: 5:00 PM – 11:30 PM</li>
+            <li>Sunday: Closed</li>
+          </ul>
+        </div>
+        <div class="contact">
+          <p><i>Contact & Location</i></p>
+          <p class="nyc">123 Culinary Avenue New York, NY 10012</p>
+          <p class="num">+1 (212) 555-7890</p>
+          <p class="email">reservations@letoile.com</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Flavora Fine Dining. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
