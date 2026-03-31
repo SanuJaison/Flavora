@@ -2,27 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://your-site.vercel.app/</loc>
+    <loc>https://flavora-ruby.vercel.app/</loc>
   </url>
 
   <url>
-    <loc>https://your-site.vercel.app/login.html</loc>
+    <loc>https://flavora-ruby.vercel.app/login.html</loc>
   </url>
 
   <url>
-    <loc>https://your-site.vercel.app/menu.html</loc>
+    <loc>https://flavora-ruby.vercel.app/menu.html</loc>
   </url>
 
   <url>
-    <loc>https://your-site.vercel.app/register.html</loc>
+    <loc>https://flavora-ruby.vercel.app/register.html</loc>
   </url>
 
   <url>
-    <loc>https://your-site.vercel.app/reservation.html</loc>
+    <loc>https://flavora-ruby.vercel.app/reservation.html</loc>
   </url>
 
   <url>
-    <loc>https://your-site.vercel.app/story.html</loc>
+    <loc>https://flavora-ruby.vercel.app/story.html</loc>
   </url>
 
 </urlset>
